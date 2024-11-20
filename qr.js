@@ -2,7 +2,7 @@ import {qrController,deleteCookie} from "https://cdn.jsdelivr.net/gh/whatsauth/j
 import { wauthparam } from "https://cdn.jsdelivr.net/gh/whatsauth/js@0.2.1/config.js";
    
 wauthparam.auth_ws="d3NzOi8vYXBpLndhLm15LmlkL3dzL3doYXRzYXV0aC9wdWJsaWM=";
-wauthparam.keyword="aHR0cHM6Ly93YS5tZS82MiA4NTEtNTc5Ny05NzU5P3RleHQ9d2g0dDVhdXRoMA==";
+wauthparam.keyword="aHR0cHM6Ly93YS5tZS82Mjg5OTk3MTAwNDA/dGV4dD13aDR0NWF1dGgw";
 wauthparam.tokencookiehourslifetime=18;
 wauthparam.redirect ="/auth"
 deleteCookie(wauthparam.tokencookiename);
