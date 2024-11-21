@@ -4,6 +4,6 @@ import { wauthparam } from "https://cdn.jsdelivr.net/gh/whatsauth/js@0.2.1/confi
 wauthparam.auth_ws="d3NzOi8vYXBpLndhLm15LmlkL3dzL3doYXRzYXV0aC9wdWJsaWM=";
 wauthparam.keyword="aHR0cHM6Ly93YS5tZS82Mjg5OTE3NjAwNTA/dGV4dD13aDR0NWF1dGgw";
 wauthparam.tokencookiehourslifetime=18;
-wauthparam.redirect ="/id.biz.id"
+wauthparam.redirect ="/idbiz.github.io"
 deleteCookie(wauthparam.tokencookiename);
 qrController(wauthparam);
