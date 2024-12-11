@@ -47,19 +47,19 @@ async function gSignIn(response, target_url) {
     }
 }
    
-function responsePostFunction(response) {
-    if (response.status === 200 && response.data) {
-        console.log(response.data);
-        setCookieWithExpireHour('login',response.data.token,18);
-        redirect("/dashboard");
-    } else {
-        console.error("Login failed:", response.data?.message || "Unknown error");
-        Swal.fire({
-            icon: "error",
-            title: "Login Failed",
-            text: response.data?.message || "Anda belum terdaftar dengan login google, silahkan tap atau scan qr dahulu untuk pendaftaran.",
-        }).then(() => {
-            redirect("/login");
-        });
-    }
-}
+// function responsePostFunction(response) {
+//     if (response.status === 200 && response.data) {
+//         console.log(response.data);
+//         setCookieWithExpireHour('login',response.data.token,18);
+//         redirect("/dashboard");
+//     } else {
+//         console.error("Login failed:", response.data?.message || "Unknown error");
+//         Swal.fire({
+//             icon: "error",
+//             title: "Login Failed",
+//             text: response.data?.message || "Anda belum terdaftar dengan login google, silahkan tap atau scan qr dahulu untuk pendaftaran.",
+//         }).then(() => {
+//             redirect("/login");
+//         });
+//     }
+// }
